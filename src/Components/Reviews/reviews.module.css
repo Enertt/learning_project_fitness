@@ -1,0 +1,39 @@
+.wrapper{
+    width: 100%;
+    height: 850px;
+    background-color: rgba(21,21,21,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .wrapper__content{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .wrapper__content__span{
+            font-size: 52px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 30px;
+        }
+        .wrapper__content_rewiewBlock{
+            width: 100%;
+            .wrapper__content_rewiewBlock__layer{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                .wrapper__content_rewiewBlock__layer_imgBig{
+
+                }
+                .wrapper__content_rewiewBlock__layer_imgSmall{
+
+                }
+            }
+        }
+    }
+}

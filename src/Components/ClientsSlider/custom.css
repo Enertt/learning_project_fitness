@@ -1,0 +1,11 @@
+.swiper-button-prev {
+    color: rgb(237,27,36); /* Цвет стрелки влево (красный) */
+  }
+  
+  /* Настройка цвета стрелки вправо */
+  .swiper-button-next {
+    color: rgb(237,27,36); /* Цвет стрелки вправо (зеленый) */
+  }
+  .swiper-pagination-bullet-active {
+    background-color: rgb(237,27,36); /* Цвет фона активного индикатора (красный) */
+  }

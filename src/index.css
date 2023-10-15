@@ -1,7 +1,9 @@
 :root {
   --red-color: rgb(237,27,36);
   --global-font-family: Manrope, sans-serif;
-  
+  --text-color-base: #2f2f2f;
+  --backgroung-dark-gray: rgba(30,30,30,1);
+  --backgroung-white: rgba(247,241,251,1);
 }
 
 body {
