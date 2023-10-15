@@ -44,6 +44,7 @@
             gap: 30px;
 
             .wrapper__content__info__span{
+                cursor: pointer;
                 font-size: 28px;
                 font-weight: 600;
                 color: white;

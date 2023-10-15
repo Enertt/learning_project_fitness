@@ -1,5 +1,6 @@
 import s from './header.module.css'
 import logo from '../../assets/images/logoW (1).png'
+import { Link, Element } from 'react-scroll';
 
 const Header = () => {
     return(
@@ -14,10 +15,10 @@ const Header = () => {
                     </div>
                 </div>
                 <div className={s.wrapper__content__info}>
-                    <span className={s.wrapper__content__info__span}>Клієнти</span>
-                    <span className={s.wrapper__content__info__span}>Послуги</span>
-                    <span className={s.wrapper__content__info__span}>Мiй досвiд</span>
-                    <span className={s.wrapper__content__info__span}>Локалiзацiя</span>
+                    <Link to="Tagline" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>Клієнти</span></Link>
+                    <Link to="FormatsSection" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>Послуги</span></Link>
+                    <Link to="Reviews" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>Вiдгуки</span></Link>
+                    <Link to="CoachesFormats" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>Для тренерiв</span></Link>
                 </div>
             </div>
         </div>
