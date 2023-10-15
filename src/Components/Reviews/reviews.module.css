@@ -37,3 +37,47 @@
         }
     }
 }
+
+.wrapper__content_rewiewBlock__layer_BigL{
+    position: relative;
+    /* border: wheat solid 1px; */
+
+    display: flex;
+    justify-content: center;
+}
+.wrapper__content_rewiewBlock__layer_SmallR{
+    position: relative;
+    /* border: wheat solid 1px; */
+    display: flex;
+    justify-content: center;
+}
+.wrapper__content_rewiewBlock__layer_SmallL{
+    position: relative;
+    /* border: wheat solid 1px; */
+    display: flex;
+    justify-content: center;
+}
+.wrapper__content_rewiewBlock__layer_BigR{
+    position: relative;
+    /* border: wheat solid 1px; */
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper__content_rewiewBlock__layer__textBlock{
+    top: 10%;
+    position: absolute;
+    z-index: 2000;
+    /* border: black solid 1px; */
+    width: 95%;
+    height: 70%;
+
+    .wrapper__content_rewiewBlock__layer__textBlock__span{
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .wrapper__content_rewiewBlock__layer__textBlock__p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
