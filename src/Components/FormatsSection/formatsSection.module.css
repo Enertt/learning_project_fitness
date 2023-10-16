@@ -20,14 +20,19 @@
             font-weight: 700;
             color: white;
         }
+        .wrapper__content__cardsBlock__hidden{
+            opacity: 0;
+            width: 100%;
+            overflow: hidden;
+        }
         .wrapper__content__cardsBlock{
-            
+            position: relative;
             width: 100%;
             height: 83%;
             display: flex;
             align-items: center;
             justify-content: space-between;
-
+            animation: cardsAnimation 2s ease forwards;
 
             .wrapper__content__cardsBlock__card{
                 width: 30%;
@@ -39,6 +44,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-between;
+                
 
                 .wrapper__content__cardsBlock__card__imgBlock{
                     width: 100%;
@@ -105,5 +111,16 @@
                 }
             }
         }
+    }
+}
+
+@keyframes cardsAnimation {
+    0% {
+      bottom: -300px;
+      opacity: 0;
+    }
+    100% {
+      bottom: 0px;
+      opacity: 1;
     }
 }

@@ -8,7 +8,9 @@ import Reviews from '../Reviews/Reviews'
 import CoachesFormats from '../СoachesFormats/СoachesFormats'
 import { Link, Element } from 'react-scroll';
 
+
 const Main = () => {
+    
     return(
         <div className={s.wrapper}>
             <Header />
