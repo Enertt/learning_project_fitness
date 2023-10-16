@@ -1,0 +1,49 @@
+.footerWrapper{
+    width: 100%;
+    height: 100hv; 
+    background-color: var(--black-color);
+    color: var(--white-color); 
+
+    border: rgb(252, 153, 153) solid 2px;
+
+
+}
+
+.content{
+    display: flex;
+    height: 100%;
+    justify-content:center;
+    gap: 10px;
+}
+
+.addres{
+    text-align: start;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 40%;
+    line-height: 2px;
+    border: blue solid 1px;
+    /* background-color: var(--black-color); */
+}
+
+.addresName{
+    /* text-align: center;
+    align-items: center;
+    display: flex;*/
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border: green solid 1px;
+    width: 100%;
+    font-size: 52px;
+    color: white;
+    font-family: var(--global-font-family);
+}
+
+ .mapSection{
+    width: 40%;
+    border: gold solid 1px;
+} 
