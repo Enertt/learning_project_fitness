@@ -2,6 +2,7 @@ import s from './formatsSection.module.css'
 import foodImg from '../../assets/images/food_scale_2.jpg'
 import online from '../../assets/images/image.psd (1).jpg'
 import body from '../../assets/images/image_body.jpg'
+import trainer from '../../assets/images/trainer.jpg'
 import { useInView } from 'react-intersection-observer';
 
 
@@ -61,6 +62,27 @@ const FormatsSection = () => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>2499 грн.</span>
+                            <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div className={inView ? s.wrapper__content__cardsBlock2 : s.wrapper__content__cardsBlock__hidden}>
+                <div className={s.wrapper__content__cardsBlock__card}>
+                        <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
+                            <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={trainer}/>
+                        </div>
+                        <div className={s.wrapper__content__cardsBlock__card__textBlock}>
+                            <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Фiтнесс наставництво»</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
+                        </div>
+                        <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
+                            <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>11999 грн.</span>
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                         </div>
                         
