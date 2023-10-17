@@ -7,6 +7,7 @@ import Tagline from '../Tagline/Tagline'
 import Reviews from '../Reviews/Reviews'
 import CoachesFormats from '../СoachesFormats/СoachesFormats'
 import { Link, Element } from 'react-scroll';
+import Footer from '../Footer/footer'
 
 
 const Main = () => {
@@ -24,6 +25,7 @@ const Main = () => {
             <Reviews />
             <Element name="CoachesFormats"></Element>
             <CoachesFormats />
+            <Footer />
         </div>
     )
 }
