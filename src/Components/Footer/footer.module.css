@@ -52,6 +52,21 @@
     overflow: hidden;
 } 
 
+ .svgmessenger{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;    
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    gap: 10px;
+    /* border: blue solid 1px; */
+
+}
+
+
 @media (max-width: 1300px){
     .content{
         height: 100%;

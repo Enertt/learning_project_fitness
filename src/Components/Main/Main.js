@@ -8,7 +8,6 @@ import Reviews from '../Reviews/Reviews'
 import CoachesFormats from '../СoachesFormats/СoachesFormats'
 import Footer from '../Footer/footer'
 import { Link, Element } from 'react-scroll';
-import Footer from '../Footer/footer'
 
 
 const Main = () => {
@@ -26,13 +25,7 @@ const Main = () => {
             <Reviews />
             <Element name="CoachesFormats"></Element>
             <CoachesFormats />
-<<<<<<< HEAD
             <Footer />
-=======
-
-            <Footer />
-
->>>>>>> d1d3d1203eee73661492c6bde9959438ac731a3e
         </div>
     )
 }
