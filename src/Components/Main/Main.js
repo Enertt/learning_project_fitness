@@ -28,9 +28,7 @@ const Main = () => {
             <CoachesFormats />
             <Element name="AboutMe"></Element>
             <AboutMe />
-
             <Footer />
-
         </div>
     )
 }

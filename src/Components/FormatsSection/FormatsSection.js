@@ -20,15 +20,13 @@ const FormatsSection = () => {
                 <div className={inView ? s.wrapper__content__cardsBlock2 : s.wrapper__content__cardsBlock__hidden}>
                     <div className={s.wrapper__content__cardsBlock__card}>
                         <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
-                            <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={body} />
+                            <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={foodImg} />
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
-                            <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Онлайн-ведення»</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Створення раціону харчування»</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-для схуднення</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-для набору</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-для людей з порушеннями</span>
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>2499 грн.</span>
@@ -39,10 +37,10 @@ const FormatsSection = () => {
                 </div>
 
                 <div ref={ref} className={inView ? s.wrapper__content__cardsBlock : s.wrapper__content__cardsBlock__hidden}>
-                    
+
                     <div className={s.wrapper__content__cardsBlock__card}>
                         <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
-                            <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={body} />
+                            <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={trainer} />
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Фiтнес наставництво»</span>
@@ -63,9 +61,9 @@ const FormatsSection = () => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Онлайн-консультація»</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-як правильно вистроїти i вирахувати навантаження в тренуваннях з пауерліфтингу</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-на будь яку тему, яка стосується тренувань i харчування</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-відновлення</span>
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн.</span>
@@ -75,19 +73,20 @@ const FormatsSection = () => {
                     </div>
                     <div className={s.wrapper__content__cardsBlock__card}>
                         <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
-                            <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={foodImg} />
+                            <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={body} />
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
-                            <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Створення раціону харчування»</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Онлайн-ведення»</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-досконало підібрана під вас система тренувань</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-все підкріплено відео</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-звʼязок з вами 24/7</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-підібрана система харчування для досягнення цілі</span>
+
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн.</span>
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                         </div>
-
                     </div>
                 </div>
             </div>
