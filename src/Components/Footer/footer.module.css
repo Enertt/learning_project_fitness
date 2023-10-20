@@ -55,19 +55,22 @@
  .svgmessenger{
     position: relative;
     display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     height: auto;    
     width: 100%;
     font-size: 20px;
     margin-top: 10px;
     gap: 10px;
-    /* border: blue solid 1px; */
-
 }
 
 
 @media (max-width: 1300px){
+     
+    .footerWrapper{
+        height: 400px;
+    }
+
     .content{
         height: 100%;
         gap: 5px;
@@ -78,6 +81,7 @@
         font-size: 60px;   
         width: 100%;
         height: 23%;
+        top: -5%;
     }
 
     .addres{
@@ -90,7 +94,7 @@
         height: auto;
         margin: 10px 0px 20px 0px;
         font-size: 20px;
-        gap:10px;
+        gap: 7px;
     }
 
     .mapSection{
@@ -103,19 +107,42 @@
         overflow: hidden;
     }
 
+    .svgmessenger{
+        position: relative;
+        display:flex;
+        align-items: start;
+        justify-content: start;
+        height: auto;    
+        width: 100%;
+        font-size: 5px;
+        margin-top: 5px;
+        gap: 10px;
+
+    }
+
 }
 
 @media (max-width: 1000px){
+
+    .footerWrapper{
+        height: 500px;
+    }
+
     .content{
         height: 100%;
-        gap: 5px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .addresName{
         position: relative;
-        font-size: 60px;   
+        font-size: 55px;
         width: 100%;
-        height: 23%;
+        height: 35%;
+        border-bottom: grey solid 1px;
     }
 
     .addres{
@@ -124,19 +151,19 @@
         display: flex;
         flex-direction: column;
         justify-content:center;
-        width: 45%;
+        width: 85%;
         height: auto;
-        margin: 10px 0px 20px 0px;
+        margin: 0px 0px 10px 0px;
         font-size: 20px;
-        gap:10px;
+        gap: 5px;
     }
 
     .mapSection{
         display: flex;
-        align-items: center;     
-        width: 50%;
-        height: auto;
-        margin: 20px 0px 20px 0px;
+        align-items: center;
+        width: 85%;
+        height: 50%;
+        margin: 1px 0px 10px 0px;
         border-radius: 15px;
         overflow: hidden;
     }
@@ -145,16 +172,26 @@
 
 
 @media (max-width: 700px){
+
+    .footerWrapper{
+        height: 500px;
+    }
+
     .content{
-        height: 100%; 
-        gap: 5px;
+        height: 100%;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .addresName{
         position: relative;
-        font-size: 50px;
+        font-size: 52px;
         width: 100%;
-        height: 23%;
+        height: 35%;
+        border-bottom: grey solid 1px;
     }
 
     .addres{
@@ -163,9 +200,9 @@
         display: flex;
         flex-direction: column;
         justify-content:center;
-        width: 45%;
+        width: 85%;
         height: auto;
-        margin: 10px 0px 20px 0px;
+        margin: 0px 0px 10px 0px;
         font-size: 17px;
         gap:10px;
     }
@@ -173,9 +210,9 @@
     .mapSection{
         display: flex;
         align-items: center;
-        width: 50%;
-        height: auto;
-        margin: 10px 0px 20px 0px;
+        width: 85%;
+        height: 50%;
+        margin: 1px 0px 10px 0px;
         border-radius: 15px;
         overflow: hidden;
     }
@@ -186,19 +223,24 @@
 
 @media (max-width: 500px){
     .footerWrapper{
-        height: 210px;
+        height: 450px;
     }
 
     .content{
         height: 100%;
-        gap: 20px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         }
 
     .addresName{
         position: relative;
-        font-size: 45px;
+        font-size: 50px;
         width: 100%;
-        height: 23%;
+        height: 35%;
+        border-bottom: grey solid 1px;
     }
 
     .addres{
@@ -207,19 +249,19 @@
         display: flex;
         flex-direction: column;
         justify-content:center;
-        width: 45%;
+        width: 85%;
         height: auto;
-        margin: 10px 0px 30px 0px;
-        font-size: 13px;
+        margin: 0px 0px 10px 0px;
+        font-size: 14px;
         gap:10px;
     }
 
     .mapSection{
         display: flex;
         align-items: center;
-        width: 45%;
-        height: auto;
-        margin: 10px 0px 10px 0px;
+        width: 85%;
+        height: 45%;
+        margin: 5px 0px 10px 0px;
         border-radius: 15px;
         overflow: hidden;
     }
@@ -228,17 +270,28 @@
 
 
 
-@media (max-width: 405px){   
+@media (max-width: 405px){  
+    
+    .footerWrapper {
+        height: 470px;
+    }
+    
+    
     .content{
         height: 100%;
-        gap: 14px;
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .addresName{
         position: relative;
-        font-size: 30px;
+        font-size: 40px;
         width: 100%;
-        height: 23%;
+        height: 35%;
+        border-bottom: grey solid 1px;
     }
 
     .addres{
@@ -247,9 +300,9 @@
         display: flex;
         flex-direction: column;
         justify-content:center;
-        width: 45%;
+        width: 85%;
         height: auto;
-        margin: 10px 0px 20px 0px;
+        margin: 0px 0px 20px 0px;
         font-size: 13px;
         gap:10px;
     }
@@ -257,9 +310,9 @@
     .mapSection{
         display: flex;
         align-items: center;
-        width: 45%;
-        height: auto;
-        margin: 10px 0px 10px 0px;
+        width: 85%;
+        height: 40%;
+        margin: 10x 0px 10px 0px;
         border-radius: 15px;
         overflow: hidden;
     }

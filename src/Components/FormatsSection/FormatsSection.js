@@ -23,9 +23,9 @@ const FormatsSection = () => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Створення раціону харчування»</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-для схуднення</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-для набору</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-для людей з порушеннями</span>
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн.</span>
@@ -39,9 +39,9 @@ const FormatsSection = () => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Онлайн-консультація»</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-як правильно вистроїти i вирахувати навантаження в тренуваннях з пауерліфтингу</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-на будь яку тему, яка стосується тренувань i харчування</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-відновлення</span>
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн.</span>
@@ -55,9 +55,10 @@ const FormatsSection = () => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Онлайн-ведення»</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-досконало підібрана під вас система тренувань</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-все підкріплено відео</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-звʼязок з вами 24/7</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-підібрана система харчування для досягнення цілі</span>
                             
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
@@ -75,9 +76,9 @@ const FormatsSection = () => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Фiтнесс наставництво»</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-як себе правильно продати</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-як вийти на дохід в 2500$ в місяць</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-онлайн-тренінг: як організувати цей процес</span>
                             <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
                             <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
                         </div>
