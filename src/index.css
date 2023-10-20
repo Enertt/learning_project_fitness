@@ -5,6 +5,7 @@
   --backgroung-dark-gray: rgba(30,30,30,1);
   --backgroung-white: rgba(247,241,251,1);
   --backgroung-darkest-gray: rgba(21,21,21,255);
+  --background-card-gray: rgb(218, 218, 218);
 }
 
 body {
