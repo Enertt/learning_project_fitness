@@ -44,9 +44,9 @@ const FormatsSection = () => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Фiтнес наставництво»</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму пункт який описує програму</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-пункт який описує програму</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-як себе правильно продати</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-онлайн-тренінг: як організувати цей процес</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-як вийти на дохід в 2500$ в місяць</span>
 
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
