@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/fitness/static/css/main.1e624f8a.css",
+    "main.js": "/fitness/static/js/main.a2855254.js",
+    "static/js/787.ec704a7a.chunk.js": "/fitness/static/js/787.ec704a7a.chunk.js",
+    "static/media/for_coaches.png": "/fitness/static/media/for_coaches.a41872dd7d7bd27e804d.png",
+    "static/media/serhii_main.jpg": "/fitness/static/media/serhii_main.9df450745ec3dc180d59.jpg",
+    "static/media/result_6.jpg": "/fitness/static/media/result_6.cb647c5be7fc713721d9.jpg",
+    "static/media/food_scale_2.jpg": "/fitness/static/media/food_scale_2.954e0083b6b12945a1ce.jpg",
+    "static/media/result_5.jpg": "/fitness/static/media/result_5.e240e0c41ac5541e4ac4.jpg",
+    "static/media/image.psd (1).jpg": "/fitness/static/media/image.psd (1).dffa36dc91281d2b2366.jpg",
+    "static/media/result_2.jpg": "/fitness/static/media/result_2.6df9842b09462c4e52d5.jpg",
+    "static/media/result_1.jpg": "/fitness/static/media/result_1.324c053f8b3d824f5d05.jpg",
+    "static/media/result_3.jpg": "/fitness/static/media/result_3.ef40efee223db38dd798.jpg",
+    "static/media/image_body.jpg": "/fitness/static/media/image_body.be314fcea571aaa5d4e8.jpg",
+    "static/media/result_4.jpg": "/fitness/static/media/result_4.bc2a4005112213fe1805.jpg",
+    "static/media/result_7.jpg": "/fitness/static/media/result_7.cd91905676d60ade5ca5.jpg",
+    "index.html": "/fitness/index.html",
+    "main.1e624f8a.css.map": "/fitness/static/css/main.1e624f8a.css.map",
+    "main.a2855254.js.map": "/fitness/static/js/main.a2855254.js.map",
+    "787.ec704a7a.chunk.js.map": "/fitness/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e624f8a.css",
+    "static/js/main.a2855254.js"
+  ]
+}
