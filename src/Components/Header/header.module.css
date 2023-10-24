@@ -37,7 +37,7 @@
 }
 
 .wrapper__content__logo__name__span {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 600;
     font-family: var(--global-font-family);
     color: white;
@@ -47,7 +47,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
 }
 
 .wrapper__content__info__svg {
@@ -57,7 +57,7 @@
 
 .wrapper__content__info__span {
     cursor: pointer;
-    font-size: 28px;
+    font-size: 23px;
     font-weight: 600;
     color: white;
 }
