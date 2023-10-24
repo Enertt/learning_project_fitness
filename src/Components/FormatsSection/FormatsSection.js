@@ -18,7 +18,7 @@ const FormatsSection = () => {
                 <span className={s.wrapper__content__spanTitle}>Виберіть свій формат</span>
 
                 <div className={inView ? s.wrapper__content__cardsBlock2 : s.wrapper__content__cardsBlock__hidden}>
-                    <div className={s.wrapper__content__cardsBlock__card}>
+                    <div className={s.wrapper__content__cardsBlock__card2}>
                         <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
                             <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={foodImg} />
                         </div>
