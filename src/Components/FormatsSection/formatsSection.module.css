@@ -941,6 +941,7 @@
         transition: 0.2s;
         margin-bottom: 30px;
     }
+    
 
     .wrapper__content__cardsBlock__card__orderBlock__button:hover {
         background-color: rgb(238, 50, 60);
