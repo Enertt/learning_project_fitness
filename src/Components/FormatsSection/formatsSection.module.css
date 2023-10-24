@@ -46,7 +46,7 @@
 
 .wrapper__content__cardsBlock__card {
     width: 30%;
-    /* height: 620px; */
+    height: 550px;
     background-color: var(--background-card-gray);
     border-radius: 15px;
     overflow: hidden;
@@ -66,9 +66,9 @@
 }
 
 .wrapper__content__cardsBlock__card__imgBlock__img {
+    width: 100%;
     height: 100%;
-
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .wrapper__content__cardsBlock__card__textBlock {
@@ -79,8 +79,9 @@
 }
 
 .wrapper__content__cardsBlock__card__spanTitle {
-    font-size: 25px;
-    font-weight: 600;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 620;
     color: var(--text-color-base);
     margin-bottom: 15px;
 }
@@ -135,7 +136,7 @@
     margin-bottom: 30px;
 }
 
-.wrapper__content__cardsBlock__card2 {
+.wrapper__content__cardsBlock2__card {
     width: 50%;
     height: 80%;
     background-color: var(--background-card-gray);
@@ -148,7 +149,7 @@
 
 }
 
-.wrapper__content__cardsBlock__card__imgBlock {
+.wrapper__content__cardsBlock2__card__imgBlock {
     width: 100%;
     height: 45%;
     overflow: hidden;
@@ -157,13 +158,13 @@
     justify-content: center;
 }
 
-.wrapper__content__cardsBlock__card__imgBlock__img {
+.wrapper__content__cardsBlock2__card__imgBlock__img {
     height: 250px;
     width: 100%;
     object-fit: cover;
 }
 
-.wrapper__content__cardsBlock__card__textBlock {
+.wrapper__content__cardsBlock2__card__textBlock {
     width: 80%;
     height: 35%;
     display: flex;
@@ -172,7 +173,8 @@
 
 }
 
-.wrapper__content__cardsBlock__card__spanTitle {
+.wrapper__content__cardsBlock2__card__spanTitle {
+    margin-top: 10px;
     font-size: 28px;
     font-weight: 600;
     color: var(--text-color-base);
@@ -181,13 +183,13 @@
     text-align: center;
 }
 
-.wrapper__content__cardsBlock__card__spanDescription {
+.wrapper__content__cardsBlock2__card__spanDescription {
     font-size: 15px;
     font-weight: 500;
     color: var(--text-color-base);
 }
 
-.wrapper__content__cardsBlock__card__orderBlock {
+.wrapper__content__cardsBlock2__card__orderBlock {
 
     width: 80%;
     height: 25%;
@@ -195,14 +197,14 @@
     flex-direction: column;
 }
 
-.wrapper__content__cardsBlock__card__orderBlock__cost {
+.wrapper__content__cardsBlock2__card__orderBlock__cost {
     font-weight: 500;
     font-size: 27px;
     color: var(--red-color);
     padding: 10px 0 10px 0;
 }
 
-.wrapper__content__cardsBlock__card__orderBlock__button {
+.wrapper__content__cardsBlock2__card__orderBlock__button {
     cursor: pointer;
     padding: 15px 0 15px 0;
     font-weight: 700;
@@ -216,7 +218,7 @@
     margin-bottom: 40px;
 }
 
-.wrapper__content__cardsBlock__card__orderBlock__button:hover {
+.wrapper__content__cardsBlock2__card__orderBlock__button:hover {
     background-color: rgb(238, 50, 60);
 }
 
@@ -235,7 +237,7 @@
 @media (max-width: 1300px) {
     .wrapper {
         width: 100%;
-        height: 1300px;
+        height: auto;
         background-color: var(--backgroung-dark-gray);
         display: flex;
         align-items: center;
@@ -257,6 +259,7 @@
         font-size: 45px;
         font-weight: 700;
         color: white;
+        margin-top: 30px;
     }
 
     .wrapper__content__cardsBlock__hidden {
@@ -277,7 +280,7 @@
 
     .wrapper__content__cardsBlock__card {
         width: 30%;
-        height: 100%;
+        height: 530px;
         background-color: var(--background-card-gray);
         border-radius: 15px;
         overflow: hidden;
@@ -363,10 +366,10 @@
         align-items: center;
         justify-content: center;
         animation: cardsAnimation 2s ease forwards;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
-    .wrapper__content__cardsBlock__card {
+    .wrapper__content__cardsBlock2__card {
         width: 60%;
         height: 75%;
         background-color: var(--background-card-gray);
@@ -378,7 +381,7 @@
         justify-content: space-between;
     }
 
-    .wrapper__content__cardsBlock__card__imgBlock {
+    .wrapper__content__cardsBlock2__card__imgBlock {
         width: 100%;
         height: 45%;
         overflow: hidden;
@@ -387,13 +390,13 @@
         justify-content: center;
     }
 
-    .wrapper__content__cardsBlock__card__imgBlock__img {
+    .wrapper__content__cardsBlock2__card__imgBlock__img {
         height: 100%;
         width: 100%;
         object-fit: cover;
     }
 
-    .wrapper__content__cardsBlock__card__textBlock {
+    .wrapper__content__cardsBlock2__card__textBlock {
         width: 80%;
         height: 35%;
         display: flex;
@@ -401,7 +404,7 @@
     }
 
 
-    .wrapper__content__cardsBlock__card__spanTitle {
+    .wrapper__content__cardsBlock2__card__spanTitle {
         font-size: 28px;
         font-weight: 600;
         color: var(--text-color-base);
@@ -410,13 +413,13 @@
         text-align: center;
     }
 
-    .wrapper__content__cardsBlock__card__spanDescription {
+    .wrapper__content__cardsBlock2__card__spanDescription {
         font-size: 15px;
         font-weight: 500;
         color: var(--text-color-base);
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock {
+    .wrapper__content__cardsBlock2__card__orderBlock{
 
         width: 80%;
         height: 25%;
@@ -424,14 +427,14 @@
         flex-direction: column;
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock__cost {
+    .wrapper__content__cardsBlock2__card__orderBlock__cost {
         font-weight: 500;
         font-size: 27px;
         color: var(--red-color);
         padding: 10px 0 10px 0;
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock__button {
+    .wrapper__content__cardsBlock2__card__orderBlock__button {
         cursor: pointer;
         padding: 15px 0 15px 0;
         font-weight: 700;
@@ -445,7 +448,7 @@
         margin-bottom: 40px;
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock__button:hover {
+    .wrapper__content__cardsBlock2__card__orderBlock__button:hover {
         background-color: rgb(238, 50, 60);
     }
 }
@@ -723,10 +726,10 @@
         align-items: center;
         justify-content: center;
         animation: cardsAnimation 2s ease forwards;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
-    .wrapper__content__cardsBlock__card {
+    .wrapper__content__cardsBlock2__card {
         width: 80%;
         height: 75%;
         background-color: var(--background-card-gray);
@@ -738,7 +741,7 @@
         justify-content: space-between;
     }
 
-    .wrapper__content__cardsBlock__card__imgBlock {
+    .wrapper__content__cardsBlock2__card__imgBlock {
         width: 100%;
         height: 45%;
         overflow: hidden;
@@ -747,13 +750,13 @@
         justify-content: center;
     }
 
-    .wrapper__content__cardsBlock__card__imgBlock__img {
+    .wrapper__content__cardsBlock2__card__imgBlock__img {
         height: 100%;
         width: 100%;
         object-fit: cover;
     }
 
-    .wrapper__content__cardsBlock__card__textBlock {
+    .wrapper__content__cardsBlock2__card__textBlock {
         width: 80%;
         height: 35%;
         display: flex;
@@ -761,7 +764,7 @@
     }
 
 
-    .wrapper__content__cardsBlock__card__spanTitle {
+    .wrapper__content__cardsBlock2__card__spanTitle {
         font-size: 28px;
         font-weight: 600;
         color: var(--text-color-base);
@@ -770,13 +773,13 @@
         text-align: center;
     }
 
-    .wrapper__content__cardsBlock__card__spanDescription {
+    .wrapper__content__cardsBlock2__card__spanDescription {
         font-size: 15px;
         font-weight: 500;
         color: var(--text-color-base);
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock {
+    .wrapper__content__cardsBlock2__card__orderBlock {
 
         width: 80%;
         height: 25%;
@@ -784,14 +787,14 @@
         flex-direction: column;
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock__cost {
+    .wrapper__content__cardsBlock2__card__orderBlock__cost {
         font-weight: 500;
         font-size: 27px;
         color: var(--red-color);
         padding: 10px 0 10px 0;
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock__button {
+    .wrapper__content__cardsBlock2__card__orderBlock__button {
         cursor: pointer;
         padding: 15px 0 15px 0;
         font-weight: 700;
@@ -805,7 +808,7 @@
         margin-bottom: 40px;
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock__button:hover {
+    .wrapper__content__cardsBlock2__card__orderBlock__button:hover {
         background-color: rgb(238, 50, 60);
     }
 }
@@ -951,10 +954,10 @@
         align-items: center;
         justify-content: center;
         animation: cardsAnimation 2s ease forwards;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
-    .wrapper__content__cardsBlock__card {
+    .wrapper__content__cardsBlock2__card {
         width: 90%;
         height: 75%;
         background-color: var(--background-card-gray);
@@ -966,7 +969,7 @@
         justify-content: space-between;
     }
 
-    .wrapper__content__cardsBlock__card__imgBlock {
+    .wrapper__content__cardsBlock2__card__imgBlock {
         width: 100%;
         height: 45%;
         overflow: hidden;
@@ -975,13 +978,13 @@
         justify-content: center;
     }
 
-    .wrapper__content__cardsBlock__card__imgBlock__img {
+    .wrapper__content__cardsBlock2__card__imgBlock__img {
         height: 100%;
         width: 100%;
         object-fit: cover;
     }
 
-    .wrapper__content__cardsBlock__card__textBlock {
+    .wrapper__content__cardsBlock2__card__textBlock {
         width: 80%;
         height: 35%;
         display: flex;
@@ -989,7 +992,7 @@
 
     }
 
-    .wrapper__content__cardsBlock__card__spanTitle {
+    .wrapper__content__cardsBlock2__card__spanTitle {
         font-size: 28px;
         font-weight: 600;
         color: var(--text-color-base);
@@ -998,13 +1001,13 @@
         text-align: center;
     }
 
-    .wrapper__content__cardsBlock__card__spanDescription {
+    .wrapper__content__cardsBlock2__card__spanDescription {
         font-size: 15px;
         font-weight: 500;
         color: var(--text-color-base);
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock {
+    .wrapper__content__cardsBlock2__card__orderBlock {
 
         width: 80%;
         height: 25%;
@@ -1012,14 +1015,14 @@
         flex-direction: column;
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock__cost {
+    .wrapper__content__cardsBlock2__card__orderBlock__cost {
         font-weight: 500;
         font-size: 27px;
         color: var(--red-color);
         padding: 10px 0 10px 0;
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock__button {
+    .wrapper__content__cardsBlock2__card__orderBlock__button {
         cursor: pointer;
         padding: 15px 0 15px 0;
         font-weight: 700;
@@ -1033,7 +1036,7 @@
         margin-bottom: 40px;
     }
 
-    .wrapper__content__cardsBlock__card__orderBlock__button:hover {
+    .wrapper__content__cardsBlock2__card__orderBlock__button:hover {
         background-color: rgb(238, 50, 60);
     }
 }
