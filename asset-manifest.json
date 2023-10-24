@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/learning_project_fitness/static/css/main.57081779.css",
-    "main.js": "/learning_project_fitness/static/js/main.ef8bb362.js",
+    "main.css": "/learning_project_fitness/static/css/main.b5467e44.css",
+    "main.js": "/learning_project_fitness/static/js/main.bec905f9.js",
     "static/js/787.ec704a7a.chunk.js": "/learning_project_fitness/static/js/787.ec704a7a.chunk.js",
     "static/media/for_coaches.png": "/learning_project_fitness/static/media/for_coaches.a41872dd7d7bd27e804d.png",
     "static/media/serhii_main.jpg": "/learning_project_fitness/static/media/serhii_main.9df450745ec3dc180d59.jpg",
@@ -19,12 +19,12 @@
     "static/media/result_7.jpg": "/learning_project_fitness/static/media/result_7.cd91905676d60ade5ca5.jpg",
     "static/media/result_5.jpg": "/learning_project_fitness/static/media/result_5.bc0d536ecfe40b0dcc08.jpg",
     "index.html": "/learning_project_fitness/index.html",
-    "main.57081779.css.map": "/learning_project_fitness/static/css/main.57081779.css.map",
-    "main.ef8bb362.js.map": "/learning_project_fitness/static/js/main.ef8bb362.js.map",
+    "main.b5467e44.css.map": "/learning_project_fitness/static/css/main.b5467e44.css.map",
+    "main.bec905f9.js.map": "/learning_project_fitness/static/js/main.bec905f9.js.map",
     "787.ec704a7a.chunk.js.map": "/learning_project_fitness/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57081779.css",
-    "static/js/main.ef8bb362.js"
+    "static/css/main.b5467e44.css",
+    "static/js/main.bec905f9.js"
   ]
 }
