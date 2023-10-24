@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     width: 100%;
     height: 650px;
     background-image: url('../../assets/images/serhii_main.jpg');
@@ -7,12 +7,99 @@
 
     display: flex;
     align-items: center;
+}
 
-    .wrapper__window{
+.wrapper__window {
+    position: relative;
+    width: 50%;
+    height: 60%;
+    background-color: rgba(30, 30, 30, 0.7);
+    margin-left: 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: windowAnimation 1s ease forwards;
+}
+
+.wrapper__window__content {
+    width: 85%;
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.wrapper__window__content__main {
+    font-size: 52px;
+    color: white;
+    font-family: var(--global-font-family);
+    font-weight: 700;
+    line-height: 108%;
+}
+
+.wrapper__window__content__description {
+    font-size: 23px;
+    color: white;
+    font-family: var(--global-font-family);
+    font-weight: 400;
+    line-height: 141%;
+}
+
+.wrapper__window__content__button {
+    color: rgba(255, 255, 255, 1);
+    background-color: var(--red-color);
+    font-family: var(--global-font-family);
+    outline: none;
+    border: none;
+    width: 50%;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 7px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    box-shadow: 0 7px 10px -5px rgba(237, 27, 36, 0.5);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.wrapper__window__content__button:hover {
+    background-color: rgb(238, 50, 60);
+}
+
+@keyframes windowAnimation {
+    0% {
+        left: -300px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        width: 100%;
+        height: 650px;
+        background-image: url('../../assets/images/serhii_main.jpg');
+        background-position: center;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .wrapper__window {
         position: relative;
-        width: 50%;
+        width: 60%;
         height: 60%;
-        background-color: rgba(30,30,30,0.7);
+        background-color: rgba(30, 30, 30, 0.7);
         margin-left: 100px;
         border-radius: 15px;
         display: flex;
@@ -20,352 +107,281 @@
         justify-content: center;
 
         animation: windowAnimation 1s ease forwards;
-
-        .wrapper__window__content{
-            width: 85%;
-            height: 75%;
-
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-
-            .wrapper__window__content__main{
-                font-size: 52px;
-                color: white;
-                font-family: var(--global-font-family);
-                font-weight: 700;
-                line-height: 108%;
-            }
-            .wrapper__window__content__description{
-                font-size: 23px;
-                color: white;
-                font-family: var(--global-font-family);
-                font-weight: 400;
-                line-height: 141%;
-            }
-            .wrapper__window__content__button{
-                color: rgba(255,255,255,1);
-                background-color: var(--red-color);
-                font-family: var(--global-font-family);
-                outline: none;
-                border: none;
-                width: 50%;
-                font-size: 19px;
-                font-weight: 600;
-                border-radius: 7px;
-                padding-top: 20px;
-                padding-left: 40px;
-                padding-right: 40px;
-                padding-bottom: 20px;
-                box-shadow: 0 7px 10px -5px rgba(237,27,36,0.5);
-                cursor: pointer;
-                transition: 0.2s;
-            }
-            .wrapper__window__content__button:hover{
-                background-color: rgb(238, 50, 60);
-            }
-        }
     }
-}
 
-@keyframes windowAnimation {
-    0% {
-      left: -300px;
-      opacity: 0;
-    }
-    100% {
-      left: 0px;
-      opacity: 1;
-    }
-}
+    .wrapper__window__content {
+        width: 85%;
+        height: 75%;
 
-@media (max-width: 1300px){
-    .wrapper{
-        width: 100%;
-        height: 650px;
-        background-image: url('../../assets/images/serhii_main.jpg');
-        background-position: center;
-        background-size: cover;
-    
         display: flex;
-        align-items: center;
-    
-        .wrapper__window{
-            position: relative;
-            width: 60%;
-            height: 60%;
-            background-color: rgba(30,30,30,0.7);
-            margin-left: 100px;
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-    
-            animation: windowAnimation 1s ease forwards;
-    
-            .wrapper__window__content{
-                width: 85%;
-                height: 75%;
-    
-                display: flex;
-                flex-direction: column;
-                gap: 30px;
-    
-                .wrapper__window__content__main{
-                    font-size: 45px;
-                    color: white;
-                    font-family: var(--global-font-family);
-                    font-weight: 700;
-                    line-height: 108%;
-                }
-                .wrapper__window__content__description{
-                    font-size: 23px;
-                    color: white;
-                    font-family: var(--global-font-family);
-                    font-weight: 400;
-                    line-height: 141%;
-                }
-                .wrapper__window__content__button{
-                    color: rgba(255,255,255,1);
-                    background-color: var(--red-color);
-                    font-family: var(--global-font-family);
-                    outline: none;
-                    border: none;
-                    width: 70%;
-                    font-size: 16px;
-                    font-weight: 600;
-                    border-radius: 7px;
-                    padding-top: 20px;
-                    padding-left: 40px;
-                    padding-right: 40px;
-                    padding-bottom: 20px;
-                    box-shadow: 0 7px 10px -5px rgba(237,27,36,0.5);
-                    cursor: pointer;
-                    transition: 0.2s;
-                }
-                .wrapper__window__content__button:hover{
-                    background-color: rgb(238, 50, 60);
-                }
-            }
-        }
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .wrapper__window__content__main {
+        font-size: 45px;
+        color: white;
+        font-family: var(--global-font-family);
+        font-weight: 700;
+        line-height: 108%;
+    }
+
+    .wrapper__window__content__description {
+        font-size: 23px;
+        color: white;
+        font-family: var(--global-font-family);
+        font-weight: 400;
+        line-height: 141%;
+    }
+
+    .wrapper__window__content__button {
+        color: rgba(255, 255, 255, 1);
+        background-color: var(--red-color);
+        font-family: var(--global-font-family);
+        outline: none;
+        border: none;
+        width: 70%;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 7px;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        box-shadow: 0 7px 10px -5px rgba(237, 27, 36, 0.5);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .wrapper__window__content__button:hover {
+        background-color: rgb(238, 50, 60);
     }
 }
 
-@media (max-width: 1000px){
-    .wrapper{
+@media (max-width: 1000px) {
+    .wrapper {
         width: 100%;
         height: 650px;
         background-image: url('../../assets/images/serhii_main.jpg');
         background-position: center;
         background-size: cover;
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
-    
-        .wrapper__window{
-            position: relative;
-            width: 70%;
-            height: 60%;
-            background-color: rgba(30,30,30,0.7);
-            border-radius: 15px;
-            margin-left: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-    
-            animation: windowAnimation 1s ease forwards;
-    
-            .wrapper__window__content{
-                width: 85%;
-                height: 75%;
-    
-                display: flex;
-                flex-direction: column;
-                gap: 30px;
-    
-                .wrapper__window__content__main{
-                    font-size: 39px;
-                    color: white;
-                    font-family: var(--global-font-family);
-                    font-weight: 700;
-                    line-height: 108%;
-                }
-                .wrapper__window__content__description{
-                    font-size: 20px;
-                    color: white;
-                    font-family: var(--global-font-family);
-                    font-weight: 400;
-                    line-height: 141%;
-                }
-                .wrapper__window__content__button{
-                    color: rgba(255,255,255,1);
-                    background-color: var(--red-color);
-                    font-family: var(--global-font-family);
-                    outline: none;
-                    border: none;
-                    width: 70%;
-                    font-size: 16px;
-                    font-weight: 600;
-                    border-radius: 7px;
-                    padding-top: 20px;
-                    padding-left: 40px;
-                    padding-right: 40px;
-                    padding-bottom: 20px;
-                    box-shadow: 0 7px 10px -5px rgba(237,27,36,0.5);
-                    cursor: pointer;
-                    transition: 0.2s;
-                }
-                .wrapper__window__content__button:hover{
-                    background-color: rgb(238, 50, 60);
-                }
-            }
-        }
+    }
+
+    .wrapper__window {
+        position: relative;
+        width: 70%;
+        height: 60%;
+        background-color: rgba(30, 30, 30, 0.7);
+        border-radius: 15px;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        animation: windowAnimation 1s ease forwards;
+    }
+
+    .wrapper__window__content {
+        width: 85%;
+        height: 75%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .wrapper__window__content__main {
+        font-size: 39px;
+        color: white;
+        font-family: var(--global-font-family);
+        font-weight: 700;
+        line-height: 108%;
+    }
+
+    .wrapper__window__content__description {
+        font-size: 20px;
+        color: white;
+        font-family: var(--global-font-family);
+        font-weight: 400;
+        line-height: 141%;
+    }
+
+    .wrapper__window__content__button {
+        color: rgba(255, 255, 255, 1);
+        background-color: var(--red-color);
+        font-family: var(--global-font-family);
+        outline: none;
+        border: none;
+        width: 70%;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 7px;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        box-shadow: 0 7px 10px -5px rgba(237, 27, 36, 0.5);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .wrapper__window__content__button:hover {
+        background-color: rgb(238, 50, 60);
     }
 }
 
-@media (max-width: 700px){
-    .wrapper{
+@media (max-width: 700px) {
+    .wrapper {
         width: 100%;
         height: 650px;
         background-image: url('../../assets/images/serhii_main.jpg');
         background-position: center;
         background-size: cover;
-    
+
         display: flex;
         align-items: center;
-    
-        .wrapper__window{
-            position: relative;
-            width: 80%;
-            height: 60%;
-            background-color: rgba(30,30,30,0.7);
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-    
-            animation: windowAnimation 1s ease forwards;
-    
-            .wrapper__window__content{
-                width: 85%;
-                height: 75%;
-    
-                display: flex;
-                flex-direction: column;
-                gap: 30px;
-    
-                .wrapper__window__content__main{
-                    font-size: 35px;
-                    color: white;
-                    font-family: var(--global-font-family);
-                    font-weight: 700;
-                    line-height: 108%;
-                }
-                .wrapper__window__content__description{
-                    font-size: 20px;
-                    color: white;
-                    font-family: var(--global-font-family);
-                    font-weight: 400;
-                    line-height: 141%;
-                }
-                .wrapper__window__content__button{
-                    color: rgba(255,255,255,1);
-                    background-color: var(--red-color);
-                    font-family: var(--global-font-family);
-                    outline: none;
-                    border: none;
-                    width: 70%;
-                    font-size: 16px;
-                    font-weight: 600;
-                    border-radius: 7px;
-                    padding-top: 20px;
-                    padding-left: 40px;
-                    padding-right: 40px;
-                    padding-bottom: 20px;
-                    box-shadow: 0 7px 10px -5px rgba(237,27,36,0.5);
-                    cursor: pointer;
-                    transition: 0.2s;
-                }
-                .wrapper__window__content__button:hover{
-                    background-color: rgb(238, 50, 60);
-                }
-            }
-        }
+    }
+
+    .wrapper__window {
+        position: relative;
+        width: 80%;
+        height: 60%;
+        background-color: rgba(30, 30, 30, 0.7);
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        animation: windowAnimation 1s ease forwards;
+    }
+
+    .wrapper__window__content {
+        width: 85%;
+        height: 75%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .wrapper__window__content__main {
+        font-size: 35px;
+        color: white;
+        font-family: var(--global-font-family);
+        font-weight: 700;
+        line-height: 108%;
+    }
+
+    .wrapper__window__content__description {
+        font-size: 20px;
+        color: white;
+        font-family: var(--global-font-family);
+        font-weight: 400;
+        line-height: 141%;
+    }
+
+    .wrapper__window__content__button {
+        color: rgba(255, 255, 255, 1);
+        background-color: var(--red-color);
+        font-family: var(--global-font-family);
+        outline: none;
+        border: none;
+        width: 70%;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 7px;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        box-shadow: 0 7px 10px -5px rgba(237, 27, 36, 0.5);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .wrapper__window__content__button:hover {
+        background-color: rgb(238, 50, 60);
     }
 }
 
-@media (max-width: 500px){
-    .wrapper{
+@media (max-width: 500px) {
+    .wrapper {
         width: 100%;
         height: 650px;
         background-image: url('../../assets/images/serhii_main.jpg');
         background-position: 80%;
         background-size: cover;
-    
+
         display: flex;
         align-items: center;
 
-    
-        .wrapper__window{
-            position: relative;
-            width: 80%;
-            height: 70%;
-            background-color: rgba(30,30,30,0.7);
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-    
-            animation: windowAnimation 1s ease forwards;
-    
-            .wrapper__window__content{
-                width: 95%;
-                height: 85%;
-    
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                gap: 30px;
-    
-                .wrapper__window__content__main{
-                    font-size: 35px;
-                    color: white;
-                    font-family: var(--global-font-family);
-                    font-weight: 700;
-                    line-height: 108%;
-                }
-                .wrapper__window__content__description{
-                    font-size: 20px;
-                    color: white;
-                    font-family: var(--global-font-family);
-                    font-weight: 400;
-                    line-height: 141%;
-                }
-                .wrapper__window__content__button{
-                    color: rgba(255,255,255,1);
-                    background-color: var(--red-color);
-                    font-family: var(--global-font-family);
-                    outline: none;
-                    border: none;
-                    width: 70%;
-                    font-size: 14px;
-                    font-weight: 600;
-                    border-radius: 7px;
-                    padding-top: 15px;
-                    padding-left: 10px;
-                    padding-right: 10px;
-                    padding-bottom: 15px;
-                    box-shadow: 0 7px 10px -5px rgba(237,27,36,0.5);
-                    cursor: pointer;
-                    transition: 0.2s;
-                }
-                .wrapper__window__content__button:hover{
-                    background-color: rgb(238, 50, 60);
-                }
-            }
-        }
+    }
+
+    .wrapper__window {
+        position: relative;
+        width: 80%;
+        height: 70%;
+        background-color: rgba(30, 30, 30, 0.7);
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        animation: windowAnimation 1s ease forwards;
+    }
+
+    .wrapper__window__content {
+        width: 95%;
+        height: 85%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .wrapper__window__content__main {
+        font-size: 35px;
+        color: white;
+        font-family: var(--global-font-family);
+        font-weight: 700;
+        line-height: 108%;
+    }
+
+    .wrapper__window__content__description {
+        font-size: 20px;
+        color: white;
+        font-family: var(--global-font-family);
+        font-weight: 400;
+        line-height: 141%;
+    }
+
+    .wrapper__window__content__button {
+        color: rgba(255, 255, 255, 1);
+        background-color: var(--red-color);
+        font-family: var(--global-font-family);
+        outline: none;
+        border: none;
+        width: 70%;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 7px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        box-shadow: 0 7px 10px -5px rgba(237, 27, 36, 0.5);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .wrapper__window__content__button:hover {
+        background-color: rgb(238, 50, 60);
     }
 }
