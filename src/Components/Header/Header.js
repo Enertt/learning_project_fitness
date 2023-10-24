@@ -40,7 +40,8 @@ const Header = () => {
                         <Link to="FormatsSection" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>Послуги</span></Link>
                         <Link to="Reviews" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>Вiдгуки</span></Link>
                         <Link to="CoachesFormats" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>Для тренерiв</span></Link>
-                        <Link to="AboutMe" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>О собi</span></Link>
+                        <Link to="AboutMe" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>Про себе</span></Link>
+                        <Link to="Footer" spy={true} smooth={true} duration={500}><span className={s.wrapper__content__info__span}>Контакти</span></Link>
                     </div>
                 ) : (
                     <div className={s.wrapper__content__info} onClick={()=>{setBurgerState(!burgerState)}}>
@@ -63,7 +64,8 @@ const Header = () => {
                             <Link to="FormatsSection" spy={true} smooth={true} duration={500}><div className={s.navWindow__content__item} onClick={()=>{setBurgerState(!burgerState)}}>Послуги</div></Link>
                             <Link to="Reviews" spy={true} smooth={true} duration={500}><div className={s.navWindow__content__item} onClick={()=>{setBurgerState(!burgerState)}}>Вiдгуки</div></Link>
                             <Link to="CoachesFormats" spy={true} smooth={true} duration={500}><div className={s.navWindow__content__item} onClick={()=>{setBurgerState(!burgerState)}}>Для тренерiв</div></Link>
-                            <Link to="AboutMe" spy={true} smooth={true} duration={500}><div className={s.navWindow__content__item} onClick={()=>{setBurgerState(!burgerState)}}>О собi</div></Link>
+                            <Link to="AboutMe" spy={true} smooth={true} duration={500}><div className={s.navWindow__content__item} onClick={()=>{setBurgerState(!burgerState)}}>Про себе</div></Link>
+                            <Link to="Footer" spy={true} smooth={true} duration={500}><div className={s.navWindow__content__item} onClick={()=>{setBurgerState(!burgerState)}}>Контакти</div></Link>
                         </div>
                     </div>
                 )}
