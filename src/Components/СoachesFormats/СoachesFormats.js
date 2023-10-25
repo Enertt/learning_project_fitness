@@ -7,11 +7,11 @@ const CoachesFormats = () => {
         triggerOnce: true, // Запустить анимацию только один раз
     });
     return (
-        <div className={s.wrapper}>
+        <section className={s.wrapper}>
             <div className={s.wrapper__content}>
                 <span className={s.wrapper__content__spanTitle}>Програма для тренерiв</span>
                 <div ref={ref} className={inView ? s.wrapper__content__cardsBlock : s.wrapper__content__cardsBlock__hidden}>
-                    <div className={s.wrapper__content__cardsBlock__card}>
+                    <article className={s.wrapper__content__cardsBlock__card}>
                         <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
                             <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={Img} />
                         </div>
@@ -26,10 +26,10 @@ const CoachesFormats = () => {
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                         </div>
 
-                    </div>
+                    </article>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default CoachesFormats

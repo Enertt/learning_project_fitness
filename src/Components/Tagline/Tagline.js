@@ -3,7 +3,7 @@ import ClientsSlider from '../ClientsSlider/ClientsSlider'
 
 const Tagline = () => {
     return(
-        <div className={s.wrapper}>
+        <section className={s.wrapper}>
             <div className={s.wrapper__content}>
                 <div className={s.wrapper__content__titleBlock}>
                     <span className={s.wrapper__content__spanTitle}>Хочеш побудувати тіло своєї мрії, чи піднятися на вершину у спотривній кар'єрі?</span>
@@ -14,7 +14,7 @@ const Tagline = () => {
                 </div>
             </div>
             
-        </div>
+        </section>
     )
 }
 

@@ -13,12 +13,12 @@ const FormatsSection = () => {
     });
 
     return (
-        <div className={s.wrapper}>
+        <section className={s.wrapper}>
             <div className={s.wrapper__content}>
                 <span className={s.wrapper__content__spanTitle}>Виберіть свій формат</span>
 
                 <div ref={ref} className={inView ? s.wrapper__content__cardsBlock2 : s.wrapper__content__cardsBlock__hidden}>
-                    <div className={s.wrapper__content__cardsBlock2__card}>
+                    <article className={s.wrapper__content__cardsBlock2__card}>
                         <div className={s.wrapper__content__cardsBlock2__card__imgBlock}>
                             <img className={s.wrapper__content__cardsBlock2__card__imgBlock__img} src={body} />
                         </div>
@@ -34,12 +34,12 @@ const FormatsSection = () => {
                             <button className={s.wrapper__content__cardsBlock2__card__orderBlock__button}>Замовити</button>
                         </div>
 
-                    </div>
+                    </article>
                 </div>
 
                 <div className={inView ? s.wrapper__content__cardsBlock : s.wrapper__content__cardsBlock__hidden}>
 
-                    <div className={s.wrapper__content__cardsBlock__card}>
+                    <article className={s.wrapper__content__cardsBlock__card}>
                         <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
                             <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={trainer} />
                         </div>
@@ -55,8 +55,8 @@ const FormatsSection = () => {
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                         </div>
 
-                    </div>
-                    <div className={s.wrapper__content__cardsBlock__card}>
+                    </article>
+                    <article className={s.wrapper__content__cardsBlock__card}>
                         <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
                             <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={online} />
                         </div>
@@ -71,8 +71,8 @@ const FormatsSection = () => {
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                         </div>
 
-                    </div>
-                    <div className={s.wrapper__content__cardsBlock__card}>
+                    </article>
+                    <article className={s.wrapper__content__cardsBlock__card}>
                         <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
                             <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={foodImg} />
                         </div>
@@ -87,10 +87,10 @@ const FormatsSection = () => {
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн.</span>
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
