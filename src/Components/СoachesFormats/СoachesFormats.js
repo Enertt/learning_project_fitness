@@ -2,16 +2,16 @@ import s from './coachesFormats.module.css'
 import Img from '../../assets/images/for_coaches.png'
 import { useInView } from 'react-intersection-observer';
 
-const CoachesFormats = () => {
+const CoachesFormats = (props) => {
     const [ref, inView] = useInView({
         triggerOnce: true, // Запустить анимацию только один раз
     });
     return (
-        <section className={s.wrapper}>
+        <div className={s.wrapper}>
             <div className={s.wrapper__content}>
                 <span className={s.wrapper__content__spanTitle}>Програма для тренерiв</span>
                 <div ref={ref} className={inView ? s.wrapper__content__cardsBlock : s.wrapper__content__cardsBlock__hidden}>
-                    <article className={s.wrapper__content__cardsBlock__card}>
+                    <div className={s.wrapper__content__cardsBlock__card}>
                         <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
                             <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={Img} />
                         </div>
@@ -23,13 +23,13 @@ const CoachesFormats = () => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>9999 грн.</span>
-                            <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
+                            <button onClick={()=>{props.setFormState(true)}} className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                         </div>
 
-                    </article>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 export default CoachesFormats
