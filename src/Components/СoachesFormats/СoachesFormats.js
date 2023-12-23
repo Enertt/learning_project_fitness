@@ -25,6 +25,7 @@ const CoachesFormats = () => {
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>9999 грн.</span>
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                         </div>
+                        
 
                     </div>
                 </div>

@@ -10,10 +10,16 @@ const AboutMe = () => {
                 <div className={s.wrapper__content__textBlock}>
                     <div className={s.wrapper__content__textBlock_img1}><img src={about1} /></div>
                     
-                    <p className={s.wrapper__content__textBlock__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod lacinia at quis risus sed. Lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor. Enim blandit volutpat maecenas volutpat blandit aliquam. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Orci a scelerisque purus semper eget. Potenti nullam ac tortor vitae purus faucibus ornare. Nec ullamcorper sit amet risus nullam. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Aenean pharetra magna ac placerat vestibulum. Consequat mauris nunc congue nisi vitae. Nisl pretium fusce id velit ut tortor. Morbi blandit cursus risus at ultrices mi tempus. Purus sit amet volutpat consequat mauris nunc congue.</p>
+                    <p className={s.wrapper__content__textBlock__p}>
+                    - Діючий спортсмен.
+                    - МСМК (ПРО) з пауерліфтингу.
+                    - Чотирикратний чемпіон України з пауерліфтингу 2017; 2018; 2020; 2021 року.
+                    - Чемпіон України з тяги Акселя (стронгмен) 2023 року.
+                    </p>
                     <div className={s.wrapper__content__textBlock_img2}><img src={about2} /></div>
                     
-                    <p className={s.wrapper__content__textBlock__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod lacinia at quis risus sed. Lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor. Enim blandit volutpat maecenas volutpat blandit aliquam. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Orci a scelerisque purus semper eget. Potenti nullam ac tortor vitae purus faucibus ornare. Nec ullamcorper sit amet risus nullam. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Aenean pharetra magna ac placerat vestibulum. Consequat mauris nunc congue nisi vitae. Nisl pretium fusce id velit ut tortor. Morbi blandit cursus risus at ultrices mi tempus. Purus sit amet volutpat consequat mauris nunc congue.</p>
+                    <p className={s.wrapper__content__textBlock__p}><h8>Спеціалізація:</h8><p>- Загальна фізична підготовка.</p> <p>- Зниження ваги.</p><p>- Набір мʼязової маси⁣.</p><p>- ЛФК⁣.</p>⁣- Вища освіта педагогічна, факультет фізичного виховання і спорту. ⁣⁣⠀
+                    </p>
                 </div>
             </div>
         </div>

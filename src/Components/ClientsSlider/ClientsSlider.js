@@ -76,7 +76,7 @@ const ClientsSlider = () => {
                         <div className={s.elementWrapper__secondPart}>
                             Пiсля
                         </div> */}
-                        <img className={s.elementWrapper__img} src={result_5} />
+                        <img className={s.elementWrapper__img} src={result_2} />
                     </div>
                 </SwiperSlide>
 
@@ -110,7 +110,7 @@ const ClientsSlider = () => {
                         <div className={s.elementWrapper__secondPart}>
                             Пiсля
                         </div> */}
-                        <img className={s.elementWrapper__img} src={result_2} />
+                        <img className={s.elementWrapper__img} src={result_5} />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
