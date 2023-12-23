@@ -5,7 +5,7 @@ import SecondHeader from '../SecondHeader/SecondHeader'
 import FormatsSection from '../FormatsSection/FormatsSection'
 import Tagline from '../Tagline/Tagline'
 import Reviews from '../Reviews/Reviews'
-import CoachesFormats from '../СoachesFormats/СoachesFormats'
+// import CoachesFormats from '../СoachesFormats/СoachesFormats'
 import Footer from '../Footer/footer'
 import AboutMe from '../AboutMe/AboutMe'
 import { Link, Element } from 'react-scroll';
@@ -27,8 +27,8 @@ const Main = () => {
             <FormatsSection setFormState={setFormState}/>
             <Element name="Reviews"></Element>
             <Reviews />
-            <Element name="CoachesFormats"></Element>
-            <CoachesFormats setFormState={setFormState}/>
+            {/* <Element name="CoachesFormats"></Element>
+            <CoachesFormats /> */}
             <Element name="AboutMe"></Element>
             <AboutMe />
             <Element name="Footer"></Element>

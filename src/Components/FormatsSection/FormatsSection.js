@@ -20,10 +20,10 @@ const FormatsSection = (props) => {
                 <div ref={ref} className={inView ? s.wrapper__content__cardsBlock2 : s.wrapper__content__cardsBlock__hidden}>
 
                     <div className={s.wrapper__content__cardsBlock2__card}>
-                        {/* <div className={s.wrapper__content__cardsBlock2__card__imgBlock}>
+                         {/* <div className={s.wrapper__content__cardsBlock2__card__imgBlock}>
                             <img className={s.wrapper__content__cardsBlock2__card__imgBlock__img} src={body} />
-                        </div> (картинка)*/}
-                        <div className={s.wrapper__content__cardsBlock2__card__textBlock}>
+                        </div> (картинка) */}
+                         <div className={s.wrapper__content__cardsBlock2__card__textBlock}>
                             <span className={s.wrapper__content__cardsBlock2__card__spanTitle}>«Онлайн-ведення»</span>
                             <span className={s.wrapper__content__cardsBlock2__card__spanDescription}>-досконало підібрана під вас система тренувань</span>
                             <span className={s.wrapper__content__cardsBlock2__card__spanDescription}>-все підкріплено відео</span>
@@ -32,10 +32,11 @@ const FormatsSection = (props) => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock2__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock2__card__orderBlock__cost}>1999 грн.</span>
-                            <button onClick={()=>{props.setFormState(true)}} className={s.wrapper__content__cardsBlock2__card__orderBlock__button}>Замовити</button>
+                            <button className={s.wrapper__content__cardsBlock2__card__orderBlock__button}>Замовити</button>
                         </div>
                     </div>
-                </div>
+                </div>  
+
 
 
                 <div className={inView ? s.wrapper__content__cardsBlock : s.wrapper__content__cardsBlock__hidden}>
@@ -45,14 +46,17 @@ const FormatsSection = (props) => {
                             <img className={s.wrapper__content__cardsBlock__card__imgBlock__img} src={trainer} />
                         </div> */}
                         <div className={s.wrapper__content__cardsBlock__card__textBlock}>
-                            <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Фiтнес наставництво»</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-як себе правильно продати</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-онлайн-тренінг: як організувати цей процес</span>
-                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-як вийти на дохід в 2500$ в місяць</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanTitle}>«Онлайн-ведення»</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-досконало підібрана під вас система тренувань</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-все підкріплено відео</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-звʼязок з вами 24/7</span>
+                            <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-підібрана система харчування для досягнення цілі</span>
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
-                            <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>11999 грн.</span>
-                            <button onClick={()=>{props.setFormState(true)}} className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
+                            <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>1999 грн.</span>
+                            <form action="https://docs.google.com/forms/d/e/1FAIpQLScOj0UhaadeLIoU9dqP5nz89SPpnuhJNhN2LCWp9rN_S0GZxA/viewform?usp=sf_link" target="_blank">
+                            <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
+                            </form>
                         </div>
                     </div>
 
@@ -68,7 +72,9 @@ const FormatsSection = (props) => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн.</span>
-                            <button onClick={()=>{props.setFormState(true)}} className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
+                            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdlxVvErSsO8LZOwOltOnLCXix6pEHROeKZyuzAavuvoLa-zA/viewform?usp=sf_link" target="_blank">
+                            <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
+                            </form>
                         </div>
                     </div>
 
@@ -84,7 +90,9 @@ const FormatsSection = (props) => {
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн.</span>
-                            <button onClick={()=>{props.setFormState(true)}} className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
+                            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdwqDd9XHWL9059x9IjQrR7oXzFnFwvUr75zQ0QhMwUk0Z56A/viewform?usp=sf_link" target="_blank">
+                            <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
+                            </form>
                         </div>
                     </div>
 

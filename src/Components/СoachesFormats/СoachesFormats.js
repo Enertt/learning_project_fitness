@@ -25,6 +25,7 @@ const CoachesFormats = (props) => {
                             <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>9999 грн.</span>
                             <button onClick={()=>{props.setFormState(true)}} className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                         </div>
+                        
 
                     </div>
                 </div>
