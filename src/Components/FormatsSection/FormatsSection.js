@@ -17,12 +17,10 @@ const FormatsSection = (props) => {
             <div className={s.wrapper__content}>
                 <span className={s.wrapper__content__spanTitle}>Виберіть свій формат</span>
 
-                <div ref={ref} className={inView ? s.wrapper__content__cardsBlock2 : s.wrapper__content__cardsBlock__hidden}>
+                {/* <div  className={inView ? s.wrapper__content__cardsBlock2 : s.wrapper__content__cardsBlock__hidden}>
 
                     <div className={s.wrapper__content__cardsBlock2__card}>
-                         {/* <div className={s.wrapper__content__cardsBlock2__card__imgBlock}>
-                            <img className={s.wrapper__content__cardsBlock2__card__imgBlock__img} src={body} />
-                        </div> (картинка) */}
+                         
                          <div className={s.wrapper__content__cardsBlock2__card__textBlock}>
                             <span className={s.wrapper__content__cardsBlock2__card__spanTitle}>«Онлайн-ведення»</span>
                             <span className={s.wrapper__content__cardsBlock2__card__spanDescription}>-досконало підібрана під вас система тренувань</span>
@@ -35,11 +33,11 @@ const FormatsSection = (props) => {
                             <button className={s.wrapper__content__cardsBlock2__card__orderBlock__button}>Замовити</button>
                         </div>
                     </div>
-                </div>  
+                </div>   */}
 
 
 
-                <div className={inView ? s.wrapper__content__cardsBlock : s.wrapper__content__cardsBlock__hidden}>
+                <div ref={ref} className={inView ? s.wrapper__content__cardsBlock : s.wrapper__content__cardsBlock__hidden}>
 
                     <div className={s.wrapper__content__cardsBlock__card}>
                         {/* <div className={s.wrapper__content__cardsBlock__card__imgBlock}>
