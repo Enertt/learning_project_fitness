@@ -43,7 +43,7 @@ const Reviews = () => {
                             <img src={messageImgRSmall} className={s.wrapper__content_rewiewBlock__layer_imgSmall}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
                                 <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Нiкiта</span>
-                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Сергій – справжній професіонал. Його ретельне планування тренувань та увага до деталей призвели до значних покращень у моїй фізичній формі. Я ціную його ентузіазм, енергійність та готовність підтримати у кожному етапі шляхи до досягнення моїх спортивних цілей.</p>
                             </div>
                         </div>
                     </div>
@@ -52,14 +52,14 @@ const Reviews = () => {
                             <img src={messageImgLSmall} className={s.wrapper__content_rewiewBlock__layer_imgSmall}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
                                 <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Дмитро</span>
-                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Супер круті тренування із Сергієм! Його методика працює чітко, і я дійсно бачив результати. Сергій створює доброзичливу обстановку, роблячи кожне тренування веселим та ефективним. Тепер я дiйсно насолоджуюсь кожним тренуванням!</p>
                             </div>
                         </div>
                         <div ref={ref4} className={inView4 ? s.wrapper__content_rewiewBlock__layer_BigR : s.message_hidden}>
                             <img src={messageImgRBig} className={s.wrapper__content_rewiewBlock__layer_imgBig}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
                                 <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Олена</span>
-                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Сергій пояснює все просто, без зайвих складнощів. Тренування з ним пролітають непомітно, бо вони не лише результативні, а й веселі. Сергій не лише професіонал, а й приємна людина. У його компанії навіть вправи здаються легкими, а результати швидко приходять. Дуже дякую за позитив та ефективні тренування!</p>
                             </div>
                         </div>
                     </div>
@@ -68,14 +68,14 @@ const Reviews = () => {
                             <img src={messageImgLBig} className={s.wrapper__content_rewiewBlock__layer_imgBig}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
                                 <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Євгенiй</span>
-                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>З тренером Сергією так легко та весело займатися, що забуваєш про втому. Він не лише фахівець у своїй справі, а й чудовий наставник. Тренування із Сергієм — це не просто фізичне навантаження, а справжнє задоволення. Він робить спорт доступним і надихає великих звершень.</p>
                             </div>
                         </div>
                         <div ref={ref6} className={inView6 ? s.wrapper__content_rewiewBlock__layer_SmallR : s.message_hidden}>
                             <img src={messageImgRSmall} className={s.wrapper__content_rewiewBlock__layer_imgSmall}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
                                 <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Семен</span>
-                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Сергій – просто класний тренер! Він пояснює зрозуміло, без зайвих слів. Тренування з ним не нудні, і найголовніше вони дійсно працюють. Спорт із Сергієм стає не просто вправою, а чимось веселим та корисним.</p>
                             </div>
                         </div>
                     </div>

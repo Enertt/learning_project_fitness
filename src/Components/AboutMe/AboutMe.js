@@ -8,18 +8,9 @@ const AboutMe = () => {
             <div className={s.wrapper__content}>
                 <span className={s.wrapper__content__spanTitle}>Моя професійна біографія</span>
                 <div className={s.wrapper__content__textBlock}>
-                    <div className={s.wrapper__content__textBlock_img1}><img src={about1} /></div>
+                    <div className={s.wrapper__content__textBlock_img1}><img src={about2} /></div>
                     
-                    <p className={s.wrapper__content__textBlock__p}>
-                    - Діючий спортсмен.
-                    - МСМК (ПРО) з пауерліфтингу.
-                    - Чотирикратний чемпіон України з пауерліфтингу 2017; 2018; 2020; 2021 року.
-                    - Чемпіон України з тяги Акселя (стронгмен) 2023 року.
-                    </p>
-                    <div className={s.wrapper__content__textBlock_img2}><img src={about2} /></div>
-                    
-                    <p className={s.wrapper__content__textBlock__p}><h8>Спеціалізація:</h8><p>- Загальна фізична підготовка.</p> <p>- Зниження ваги.</p><p>- Набір мʼязової маси⁣.</p><p>- ЛФК⁣.</p>⁣- Вища освіта педагогічна, факультет фізичного виховання і спорту. ⁣⁣⠀
-                    </p>
+                    <p className={s.wrapper__content__textBlock__p}>Діючий спортсмен і МСМК (ПРО) з пауерліфтингу. Чотирикратний чемпіон України з пауерліфтингу в 2017, 2018, 2020 і 2021 роках, а також чемпіон України з тяги Акселя (стронгмен) в 2023 році. Спеціалізується на загальній фізичній підготовці, зниженні ваги, наборі мʼязової маси та лікувальній фізичній культурі (ЛФК). Має вищу педагогічну освіту з фізичного виховання і спорту.</p>
                 </div>
             </div>
         </div>

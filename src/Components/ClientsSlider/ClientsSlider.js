@@ -7,6 +7,8 @@ import './custom.css'
 import s from './clientsSlider.module.css'
 import result_1 from '../../assets/images/result_1.jpg'
 import result_2 from '../../assets/images/result_2.jpg'
+import girl1 from '../../assets/images/girl1.jpg'
+import girl2 from '../../assets/images/girl2.jpg'
 import result_3 from '../../assets/images/result_3.jpg'
 import result_4 from '../../assets/images/result_4.jpg'
 import result_5 from '../../assets/images/result_5.jpg'
@@ -77,6 +79,30 @@ const ClientsSlider = () => {
                             Пiсля
                         </div> */}
                         <img className={s.elementWrapper__img} src={result_2} />
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className={s.elementWrapper}>
+                        {/* <div className={s.elementWrapper__firstPart}>
+                            До
+                        </div>
+                        <div className={s.elementWrapper__secondPart}>
+                            Пiсля
+                        </div> */}
+                        <img className={s.elementWrapper__img} src={girl1} />
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className={s.elementWrapper}>
+                        {/* <div className={s.elementWrapper__firstPart}>
+                            До
+                        </div>
+                        <div className={s.elementWrapper__secondPart}>
+                            Пiсля
+                        </div> */}
+                        <img className={s.elementWrapper__img} src={girl2} />
                     </div>
                 </SwiperSlide>
 
