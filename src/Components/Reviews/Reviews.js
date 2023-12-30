@@ -43,11 +43,11 @@ const Reviews = () => {
                             <img src={messageImgRSmall} className={s.wrapper__content_rewiewBlock__layer_imgSmall}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
                                 <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Нiкiта</span>
-                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Сергій – справжній професіонал. Його ретельне планування тренувань та увага до деталей призвели до значних покращень у моїй фізичній формі. Я ціную його ентузіазм, енергійність та готовність підтримати у кожному етапі шляхи до досягнення моїх спортивних цілей.</p>
+                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Знайомий з Сергієм дуже довго, i за час майже в 7 років, він був і є завжди моїм наставником, з якого беру приклад. Пройдено багато тренувань та змагань з ним, i дійсно скажу що він є найкращим тренером!</p>
                             </div>
                         </div>
                     </div>
-                    <div className={s.wrapper__content_rewiewBlock__layer}>
+                    {/* <div className={s.wrapper__content_rewiewBlock__layer}>
                         <div ref={ref3} className={inView3 ? s.wrapper__content_rewiewBlock__layer_SmallL : s.message_hidden}>
                             <img src={messageImgLSmall} className={s.wrapper__content_rewiewBlock__layer_imgSmall}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
@@ -62,19 +62,19 @@ const Reviews = () => {
                                 <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Сергій пояснює все просто, без зайвих складнощів. Тренування з ним пролітають непомітно, бо вони не лише результативні, а й веселі. Сергій не лише професіонал, а й приємна людина. У його компанії навіть вправи здаються легкими, а результати швидко приходять. Дуже дякую за позитив та ефективні тренування!</p>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
                     <div className={s.wrapper__content_rewiewBlock__layer}>
-                        <div ref={ref5} className={inView5 ? s.wrapper__content_rewiewBlock__layer_BigL : s.message_hidden}>
+                        {/* <div ref={ref5} className={inView5 ? s.wrapper__content_rewiewBlock__layer_BigL : s.message_hidden}>
                             <img src={messageImgLBig} className={s.wrapper__content_rewiewBlock__layer_imgBig}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
                                 <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Євгенiй</span>
                                 <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>З тренером Сергієм так легко та весело займатися, що забуваєш про втому. Він не лише фахівець у своїй справі, а й чудовий наставник. Тренування із Сергієм — це не просто фізичне навантаження, а справжнє задоволення. Він робить спорт доступним і надихає великих звершень.</p>
-                            </div>
-                        </div>
+                            </div> 
+                        </div> */}
                         <div ref={ref6} className={inView6 ? s.wrapper__content_rewiewBlock__layer_SmallR : s.message_hidden}>
                             <img src={messageImgRSmall} className={s.wrapper__content_rewiewBlock__layer_imgSmall}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
-                                <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Семен</span>
+                                <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Мiла</span>
                                 <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Ти дуже крутий тренер) саме за твій скурпульозний підхід до клієнтів тебе Гліб і цінує і я його розумію) і вже також ціную! Я також таке люблю, отак докулупатись до всіх деталей, бо це дуже важливо) З таких деталей і збирається великий механізм</p>
                             </div>
                         </div>
