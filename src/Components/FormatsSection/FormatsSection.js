@@ -51,7 +51,7 @@ const FormatsSection = (props) => {
                             <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-підібрана система харчування для досягнення цілі</span>
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
-                            <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>1999 грн.</span>
+                            <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>1999 грн. (50$)</span>
                             <form action="https://docs.google.com/forms/d/e/1FAIpQLScOj0UhaadeLIoU9dqP5nz89SPpnuhJNhN2LCWp9rN_S0GZxA/viewform?usp=sf_link" target="_blank">
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                             </form>
@@ -69,7 +69,7 @@ const FormatsSection = (props) => {
                             <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-відновлення</span>
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
-                            <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн.</span>
+                            <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн. (25$)</span>
                             <form action="https://docs.google.com/forms/d/e/1FAIpQLSdlxVvErSsO8LZOwOltOnLCXix6pEHROeKZyuzAavuvoLa-zA/viewform?usp=sf_link" target="_blank">
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                             </form>
@@ -87,7 +87,7 @@ const FormatsSection = (props) => {
                             <span className={s.wrapper__content__cardsBlock__card__spanDescription}>-для людей з порушеннями</span>
                         </div>
                         <div className={s.wrapper__content__cardsBlock__card__orderBlock}>
-                            <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн.</span>
+                            <span className={s.wrapper__content__cardsBlock__card__orderBlock__cost}>999 грн. (25$)</span>
                             <form action="https://docs.google.com/forms/d/e/1FAIpQLSdwqDd9XHWL9059x9IjQrR7oXzFnFwvUr75zQ0QhMwUk0Z56A/viewform?usp=sf_link" target="_blank">
                             <button className={s.wrapper__content__cardsBlock__card__orderBlock__button}>Замовити</button>
                             </form>

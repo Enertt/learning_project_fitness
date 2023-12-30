@@ -68,14 +68,14 @@ const Reviews = () => {
                             <img src={messageImgLBig} className={s.wrapper__content_rewiewBlock__layer_imgBig}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
                                 <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Євгенiй</span>
-                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>З тренером Сергією так легко та весело займатися, що забуваєш про втому. Він не лише фахівець у своїй справі, а й чудовий наставник. Тренування із Сергієм — це не просто фізичне навантаження, а справжнє задоволення. Він робить спорт доступним і надихає великих звершень.</p>
+                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>З тренером Сергієм так легко та весело займатися, що забуваєш про втому. Він не лише фахівець у своїй справі, а й чудовий наставник. Тренування із Сергієм — це не просто фізичне навантаження, а справжнє задоволення. Він робить спорт доступним і надихає великих звершень.</p>
                             </div>
                         </div>
                         <div ref={ref6} className={inView6 ? s.wrapper__content_rewiewBlock__layer_SmallR : s.message_hidden}>
                             <img src={messageImgRSmall} className={s.wrapper__content_rewiewBlock__layer_imgSmall}/>
                             <div className={s.wrapper__content_rewiewBlock__layer__textBlock}>
                                 <span className={s.wrapper__content_rewiewBlock__layer__textBlock__span}>Семен</span>
-                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Сергій – просто класний тренер! Він пояснює зрозуміло, без зайвих слів. Тренування з ним не нудні, і найголовніше вони дійсно працюють. Спорт із Сергієм стає не просто вправою, а чимось веселим та корисним.</p>
+                                <p className={s.wrapper__content_rewiewBlock__layer__textBlock__p}>Ти дуже крутий тренер) саме за твій скурпульозний підхід до клієнтів тебе Гліб і цінує і я його розумію) і вже також ціную! Я також таке люблю, отак докулупатись до всіх деталей, бо це дуже важливо) З таких деталей і збирається великий механізм</p>
                             </div>
                         </div>
                     </div>

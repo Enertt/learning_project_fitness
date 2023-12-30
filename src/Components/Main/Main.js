@@ -29,8 +29,8 @@ const Main = () => {
             <Reviews />
             {/* <Element name="CoachesFormats"></Element>
             <CoachesFormats /> */}
-            <Element name="AboutMe"></Element>
-            <AboutMe />
+            {/* <Element name="AboutMe"></Element>
+            <AboutMe /> */}
             <Element name="Footer"></Element>
             <Footer />
         </div>

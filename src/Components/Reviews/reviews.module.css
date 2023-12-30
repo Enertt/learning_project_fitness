@@ -32,6 +32,7 @@
 
 .wrapper__content_rewiewBlock__layer {
     width: 100%;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -40,6 +41,7 @@
 
 .message_hidden {
     opacity: 0;
+    height: 100%;
 }
 
 .wrapper__content_rewiewBlock__layer_BigL {
